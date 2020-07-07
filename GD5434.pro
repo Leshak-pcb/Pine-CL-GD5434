@@ -1,4 +1,4 @@
-update=28.06.2020 16:52:27
+update=06.07.2020 23:12:38
 version=1
 last_client=kicad
 [general]
@@ -12,16 +12,6 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -272,6 +262,17 @@ dPairWidth=0.254
 dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
+Name=data
+Clearance=0.15
+TrackWidth=0.1524
+ViaDiameter=0.6
+ViaDrill=0.3
+uViaDiameter=0.45
+uViaDrill=0.2
+dPairWidth=0.254
+dPairGap=0.254
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
 Name=memory
 Clearance=0.25
 TrackWidth=0.25
@@ -282,3 +283,13 @@ uViaDrill=0.2
 dPairWidth=0.254
 dPairGap=0.254
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=./
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
