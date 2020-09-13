@@ -2,7 +2,7 @@
 CL-GD5434-based ISA VGA card.
 Tested, works, but may still contain minor errors. Feature connector and 64k rom option are not tested yet.
 Notes:
-1) R1-R5 are configuration resistors, install R2 & R4 for fast DRAM, R2 & R4 for slow DRAM. Check CL-GD543x databook if you need more info.
+1) R1-R5 are configuration resistors, install R2 & R4 for fast DRAM, R2 & R3 for slow DRAM. Check CL-GD543x databook if you need more info.
 2) U10 - optional, provides DD2B support (works with generic PCI BIOS).
 3) FB1-F1-D2-C68 - DDC monitor power, remove if not using U10. D2 - BAT54 or equivalent, F1 - 200mA poly fuse.
 4) U11 - optional, 93C46 used to store video modes supported by your monitor.
