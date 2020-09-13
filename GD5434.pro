@@ -1,4 +1,4 @@
-update=06.07.2020 23:12:38
+update=16.07.2020 11:44:48
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=./
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -48,10 +58,10 @@ ViaDrill3=0.6
 dPairWidth1=0.254
 dPairGap1=0.254
 dPairViaGap1=0.25
-SilkLineWidth=0.12
+SilkLineWidth=0.155
 SilkTextSizeV=1
 SilkTextSizeH=1
-SilkTextSizeThickness=0.15
+SilkTextSizeThickness=0.155
 SilkTextItalic=0
 SilkTextUpright=1
 CopperLineWidth=0.2
@@ -60,16 +70,16 @@ CopperTextSizeH=1.5
 CopperTextThickness=0.3
 CopperTextItalic=0
 CopperTextUpright=1
-EdgeCutLineWidth=0.05
-CourtyardLineWidth=0.05
-OthersLineWidth=0.15
+EdgeCutLineWidth=0.155
+CourtyardLineWidth=0.155
+OthersLineWidth=0.155
 OthersTextSizeV=1
 OthersTextSizeH=1
-OthersTextSizeThickness=0.15
+OthersTextSizeThickness=0.155
 OthersTextItalic=0
 OthersTextUpright=1
 SolderMaskClearance=0.0508
-SolderMaskMinWidth=0.0508
+SolderMaskMinWidth=0.2
 SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
@@ -283,13 +293,3 @@ uViaDrill=0.2
 dPairWidth=0.254
 dPairGap=0.254
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=./
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
